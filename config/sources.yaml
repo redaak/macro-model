@@ -1,0 +1,15 @@
+use_synthetic: true
+
+# Enable or disable the FRED connector.  When enabled and `use_synthetic`
+# is false, the CLI attempts to download real data from the FRED API.
+fred:
+  enabled: false
+  api_key: "${FRED_API_KEY}"
+  # Mapping from internal field names to FRED series identifiers.  You can
+  # customize these to suit your preferences or add new series.  See
+  # https://fred.stlouisfed.org/ for available series.  Missing series will
+  # be ignored and synthetic data used instead.
+  series:
+    CPI_INDEX: "CPIAUCSL"   # consumer price index for all urban consumers
+    YIELD_2Y: "DGS2"        # 2-year Treasury constant maturity
+    YIELD_10Y: "DGS10"      # 10-year Treasury constant maturity
