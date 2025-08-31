@@ -1,0 +1,1 @@
+"""Macro model package initialization."""
