@@ -1,0 +1,24 @@
+# Regime → suggested allocation tilts (percentages should sum ~100)
+Goldilocks (growth up, inflation contained):
+  Equities / Cyclicals: 45
+  Duration (IG Bonds): 25
+  Commodities: 15
+  USD Cash / FX: 15
+
+Overheating (growth up, inflation up):
+  Equities Value / EM: 35
+  Short Duration / TIPS: 20
+  Commodities / Energy: 30
+  USD Cash / FX: 15
+
+Stagflation (growth down, inflation up):
+  Commodities / Energy: 35
+  Short Duration / TIPS: 30
+  Defensive Equities: 20
+  USD Cash / FX: 15
+
+Disinflationary Slowdown (growth down, inflation down):
+  Long Duration Bonds: 40
+  Defensive Equities: 30
+  USD Cash / FX: 20
+  Commodities: 10
